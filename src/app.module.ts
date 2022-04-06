@@ -9,10 +9,10 @@ import { RangesModule } from './ranges/ranges.module';
     RangesModule,
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
-      port: 33060,
-      username: 'root',
-      password: 'secret',
+      host: 'cstivaldb.cwx5c4fxidqg.us-east-1.rds.amazonaws.com',
+      port: 3306,
+      username: 'admin',
+      password: 'cstival2022',
       database: 'cstival',
 
       entities: [Ranges],
