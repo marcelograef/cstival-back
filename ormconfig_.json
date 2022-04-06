@@ -1,0 +1,10 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 33060,
+  "username": "root",
+  "password": "secret",
+  "database": "cstival",
+  "entities": [],
+  "synchronize": true
+}
